@@ -1,0 +1,44 @@
+.custom-text-field * {
+  font-family: var(--font-poppins);
+}
+
+.custom-text-field {
+  width: 100%;
+}
+
+.custom-text-field label.Mui-error {
+  color: #ff5000;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+.custom-text-field .MuiInput-underline:before {
+  border-color: #c5c5c5;
+}
+
+.custom-text-field:hover .MuiInput-underline:before {
+  border-color: #c5c5c5;
+}
+
+.custom-text-field label {
+  color: #c5c5c5;
+}
+
+.custom-text-field:hover label {
+  color: white;
+}
+
+.custom-text-field .MuiInput-underline:after {
+  border-color: skyblue;
+}
+
+.custom-text-field label.Mui-focused {
+  color: skyblue;
+}
+
+.custom-text-field .Mui-focused input,
+.custom-text-field .Mui-focused span {
+  color: skyblue;
+}

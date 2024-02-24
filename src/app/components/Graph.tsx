@@ -20,10 +20,22 @@ export const options = {
       grid: {
         display: false,
       },
+      ticks: {
+        color: "white",
+      },
+      border: {
+        color: "white",
+      },
     },
     y: {
       grid: {
         display: false,
+      },
+      ticks: {
+        color: "white",
+      },
+      border: {
+        color: "white",
       },
     },
   },
@@ -40,10 +52,10 @@ export default function Graph(graphData: Props) {
     labels,
     datasets: [
       {
-        label: "Dataset 1",
+        label: "Cost",
         data: graphData.data,
         borderRadius: 5,
-        backgroundColor: ["rgba(255, 99, 132, 0.2)", "rgba(255, 159, 64, 0.2)"],
+        backgroundColor: ["lime", "yellow"],
         barThickness: 30,
       },
     ],

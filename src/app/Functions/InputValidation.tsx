@@ -8,14 +8,13 @@ export default function InputValidation(
   inputType: Props["inputType"]
 ) {
   if (inputType == "serviceCost") {
-    if (!(value != null && value >= 0)) {
-      return [inputType, false];
+    if (value != null && value >= 0) {
+      return true;
     }
-    return [inputType, true];
   } else {
-    if (!(value != null && value > 0)) {
-      return [inputType, false];
+    if (value != null && value > 0) {
+      return true;
     }
-    return [inputType, true];
   }
+  return false;
 }

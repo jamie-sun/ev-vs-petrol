@@ -31,3 +31,60 @@ body {
     text-wrap: balance;
   }
 }
+
+.card-wrapper {
+  box-shadow: 0 2px 18px #0000001a;
+  max-height: calc(100vh - 3rem);
+  overflow-y: scroll;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.card-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  margin-bottom: 30px;
+  @media (max-width: 767px) {
+    position: fixed;
+    background-color: #212b36;
+    padding: 0 1.25em;
+    width: calc(100% - 2rem);
+    margin: 0;
+    padding-bottom: 1.25em;
+    padding-top: 1.25em;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+  }
+}
+
+.graph-wrapper {
+  @media (max-width: 767px) {
+    margin-top: 80px;
+  }
+}
+
+.title h1 {
+  font-weight: bold;
+}
+
+.costs h4 {
+  font-size: 16px;
+}
+
+.costs p {
+  font-size: 14px;
+}
+
+.costs p.savings {
+  color: #ff5000;
+  margin-top: 10px;
+}
+
+.ev-message {
+  margin-top: 20px;
+  color: #c5c5c5;
+  font-size: 12px;
+}

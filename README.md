@@ -1,4 +1,4 @@
-## Getting Started
+## EV vs Petrol
 
 This is a app to calculate and compare the running costs of an EV car compared to a petrol car.
 

@@ -48,21 +48,14 @@ body {
 .title {
   margin-bottom: 30px;
   @media (max-width: 767px) {
-    position: fixed;
+    position: sticky;
+    top: 0;
     background-color: #212b36;
-    padding: 0 1.25em;
-    width: calc(100% - 2rem);
+    padding: 0;
+    width: 100%;
     margin: 0;
     padding-bottom: 1.25em;
     padding-top: 1.25em;
-    border-top-right-radius: 0.75rem;
-    border-top-left-radius: 0.75rem;
-  }
-}
-
-.graph-wrapper {
-  @media (max-width: 767px) {
-    margin-top: 80px;
   }
 }
 
